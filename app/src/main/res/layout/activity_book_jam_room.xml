@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back1"
+    tools:context=".Bookjamroom">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="322dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="36dp"
+        android:fontFamily="sans-serif-black"
+        android:shadowColor="#000000"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="5"
+        android:text="@string/booked_jam_rooms"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.606"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/bnj"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:clickable="true"
+        android:focusable="true"
+        android:tint="@android:color/white"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/bp"
+        app:layout_constraintEnd_toEndOf="@+id/bp"
+        app:srcCompat="@drawable/b_new_jam" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/bp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:clickable="true"
+        android:focusable="true"
+        android:tint="@android:color/white"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/bhb"
+        app:layout_constraintEnd_toEndOf="@+id/bhb"
+        app:srcCompat="@drawable/b_past" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/bhb"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:clickable="true"
+        android:focusable="true"
+        android:tint="@android:color/white"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/bfa"
+        app:layout_constraintEnd_toEndOf="@+id/bfa"
+        app:srcCompat="@drawable/b_helpbot" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/bfa"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:clickable="true"
+        android:focusable="true"
+        android:tint="@android:color/white"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.955"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976"
+        app:srcCompat="@drawable/b_add" />
+</androidx.constraintlayout.widget.ConstraintLayout>

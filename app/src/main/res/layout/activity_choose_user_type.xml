@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back6"
+    tools:context=".ChooseUserType">
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:shadowColor="#000000"
+        android:shadowDx="3"
+        android:shadowDy="3"
+        android:shadowRadius="5"
+        android:text="@string/choose_user_type"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.079" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="373dp"
+        android:layout_height="487dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="match_parent"
+            android:layout_height="192dp"
+            android:fontFamily="sans-serif-medium"
+            android:shadowColor="#040404"
+            android:shadowDx="5"
+            android:shadowDy="5"
+            android:shadowRadius="5"
+            android:text="@string/select_this_and_press_continue_if_you_are_a_user_who_wants_to_book_jam_rooms_for_your_band"
+            android:textColor="#F8F8F8"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="384dp"
+            android:layout_height="217dp"
+            android:fontFamily="sans-serif-medium"
+            android:shadowColor="#040404"
+            android:shadowDx="5"
+            android:shadowDy="5"
+            android:shadowRadius="5"
+            android:text="@string/select_this_and_press_continue_if_you_own_a_jam_room_and_want_to_facilitate_bookings_for_your_jam_room"
+            android:textColor="#F8F8F8"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/but"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/continues1"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.895" />
+</androidx.constraintlayout.widget.ConstraintLayout>

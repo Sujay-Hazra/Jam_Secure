@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/item_layout"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="257dp"
+        android:layout_height="42dp"
+        android:textColor="#000000"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/mob"
+        android:layout_width="192dp"
+        android:layout_height="29dp"
+        android:textColor="#000000"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/jamrate"
+        android:layout_width="190dp"
+        android:layout_height="33dp"
+        android:textColor="#000000"
+        android:textSize="40sp" />
+
+
+</LinearLayout>

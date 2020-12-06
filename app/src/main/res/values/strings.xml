@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Jam Secure</string>
+    <string name="login_sign_up">LOGIN/SIGN-UP</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="new_user_tap_here_to_register">New User? Tap here to register</string>
+    <string name="login">LOGIN</string>
+    <string name="re_enter_password">Re-Enter Password:</string>
+    <string name="enter_contact_no">Enter Contact No:</string>
+    <string name="registration">Registration</string>
+    <string name="enter_full_name">Enter Full Name:</string>
+    <string name="enter_locality">Enter Locality:</string>
+    <string name="enter_passwordr">Enter Password:</string>
+    <string name="enter_usernamer">Enter Username:</string>
+    <string name="register">Register</string>
+    <string name="own_a_jam_room">Own a Jam Room</string>
+    <string name="book_jam_rooms">Book Jam Rooms</string>
+    <string name="title_activity_book_jam_room">BookJamRoom</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="title_activity_book_jam">BookJam</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="welcom">Welcom</string>
+    <string name="booked_jam_rooms">Booked Jam Rooms</string>
+    <string name="help_bot">Help Bot</string>
+    <string name="new_jam_room_booking"><u>New Jam Room Booking</u></string>
+    <string name="select_date_time_of_the_jam_session"><![CDATA[Select Date & Time of the Jam Session:]]></string>
+    <string name="search">SEARCH</string>
+    <string name="please_select_date_time_location_of_the_jam_session"><![CDATA[Please Select Date, Time & Location of the Jam Session:]]></string>
+    <string name="book">BOOK</string>
+    <string name="please_select_date_time">Please Select Date,Time</string>
+    <string name="please_select_date_time_duration_and_location">Please Select Date, Time, Duration and Location:</string>
+    <string name="select_date">Select Date</string>
+    <string name="select_time"><u>Select Time</u></string>
+    <string name="enter_studio_name">Enter Studio Name</string>
+    <string name="enter_jam_rate_per_hour">Enter Jam Rate Per Hour</string>
+    <string name="enter_amount_in_inr">Enter amount in INR</string>
+    <string name="choose_user_type">Choose User Type</string>
+    <string name="select_this_and_press_continue_if_you_are_a_user_who_wants_to_book_jam_rooms_for_your_band">Select this and press continue if you are a user who wants to book jam rooms for your band.</string>
+    <string name="select_this_and_press_continue_if_you_own_a_jam_room_and_want_to_facilitate_bookings_for_your_jam_room">Select this and press continue if you own a jam room, and want to facilitate bookings for your jam room</string>
+    <string name="continues1">CONTINUE</string>
+    <string name="current_bookings">Current Bookings</string>
+    <string name="todo">TODO</string>
+    <string name="enter_email_id">Enter Email ID</string>
+    <string name="choose_the_location_for_the_jam_room">Choose The Location For The Jam Room</string>
+    <string name="choose_jam_room_studio">Choose Jam Room Studio</string>
+    <string-array name="sp_list">
+        <item>Select Location</item>
+        <item>Koramangala</item>
+        <item>Hennur</item>
+        <item>Yelahnka</item>
+        <item>Bellandur</item>
+    </string-array>
+    <string-array name="sp_list1">
+        <item>Duration</item>
+        <item>0.5 Hrs</item>
+        <item>1 Hr</item>
+        <item>1.5 Hr</item>
+        <item>2 Hr</item>
+    </string-array>
+</resources>
