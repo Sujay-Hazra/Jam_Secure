@@ -60,9 +60,30 @@ public class owner_register extends AppCompatActivity implements View.OnClickLis
         final String phone=mob.getText().toString().trim();
         final String jamrate=jr.getText().toString().trim();
         final String location=loc.getSelectedItem().toString().trim();
+        int pos=loc.getSelectedItemPosition();
         if(name.isEmpty()){
             sname.setError("Please Enter Full Name");
             sname.requestFocus();
+            return;
+        }
+        if(phone.isEmpty()){
+            mob.setError("Please Enter Contact Info");
+            mob.requestFocus();
+            return;
+        }
+        if(phone.length()!=10){
+            mob.setError("Please Enter Valid Contact Info");
+            mob.requestFocus();
+            return;
+        }
+        if(location.isEmpty()){
+            Toast toast = Toast.makeText(this, "Please Select Location", Toast.LENGTH_LONG);
+            toast.show();
+            return;
+        }
+        if(pos==0){
+            Toast toast = Toast.makeText(this, "Please Select Location, not this one", Toast.LENGTH_LONG);
+            toast.show();
             return;
         }
         if(em.isEmpty()){
@@ -70,11 +91,7 @@ public class owner_register extends AppCompatActivity implements View.OnClickLis
             email.requestFocus();
             return;
         }
-        if(jamrate.isEmpty()){
-            jr.setError("Email Required");
-            jr.requestFocus();
-            return;
-        }
+
         if(!Patterns.EMAIL_ADDRESS.matcher(em).matches()){
             email.setError("Enter Valid Email");
             email.requestFocus();
@@ -95,26 +112,17 @@ public class owner_register extends AppCompatActivity implements View.OnClickLis
             pwr.requestFocus();
             return;
         }
-        if(phone.isEmpty()){
-            mob.setError("Please Enter Contact Info");
-            mob.requestFocus();
-            return;
-        }
-        if(phone.length()!=10){
-            mob.setError("Please Enter Valid Contact Info");
-            mob.requestFocus();
-            return;
-        }
         if(!password.equals(password_re)){
             pwr.setError("Please re enter same password");
             pwr.requestFocus();
             return;
         }
-        if(location.isEmpty()){
-            Toast toast = Toast.makeText(this, "Please Select Location", Toast.LENGTH_LONG);
-            toast.show();
+        if(jamrate.isEmpty()){
+            jr.setError("Email Required");
+            jr.requestFocus();
             return;
         }
+
         progressBar.setVisibility(View.VISIBLE);
         mAuth.createUserWithEmailAndPassword(em,password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
             @Override

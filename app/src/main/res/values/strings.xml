@@ -36,7 +36,7 @@
     <string name="please_select_date_time_location_of_the_jam_session"><![CDATA[Please Select Date, Time & Location of the Jam Session:]]></string>
     <string name="book">BOOK</string>
     <string name="please_select_date_time">Please Select Date,Time</string>
-    <string name="please_select_date_time_duration_and_location">Please Select Date, Time, Duration and Location:</string>
+    <string name="please_select_date_time_duration_and_location">Please Select Date, Time and Duration of the Jam Session:</string>
     <string name="select_date">Select Date</string>
     <string name="select_time"><u>Select Time</u></string>
     <string name="enter_studio_name">Enter Studio Name</string>
@@ -48,9 +48,28 @@
     <string name="continues1">CONTINUE</string>
     <string name="current_bookings">Current Bookings</string>
     <string name="todo">TODO</string>
-    <string name="enter_email_id">Enter Email ID</string>
+
     <string name="choose_the_location_for_the_jam_room">Choose The Location For The Jam Room</string>
     <string name="choose_jam_room_studio">Choose Jam Room Studio</string>
+    <string name="your_message">Your Message:</string>
+    <string name="name">Name</string>
+    <string name="mob">mob</string>
+    <string name="jam_rate">jam rate</string>
+    <string name="enter_email_id">Enter Email ID</string>
+    <string name="select_times">Select Time</string>
+    <string name="per_hour_charges">Per Hour Charges:</string>
+    <string name="user_registration">User Registration</string>
+    <string name="owner_registration">Owner Registration</string>
+    <string name="jam_room_name">Jam Room Name</string>
+    <string name="textview">TextView</string>
+    <string name="phone">Phone:</string>
+    <string name="jam_rates">Jam Rate</string>
+    <string name="location">Location:</string>
+    <string name="jam_time">Jam Time</string>
+    <string name="jam_room_mail_id">Jam Room Mail ID</string>
+    <string name="duration_in_hrs">Duration in Hrs</string>
+    <string name="jam_date">Jam Date</string>
+    <string name="jam_user_room_mail_id">Jam User/Room Mail ID</string>
     <string-array name="sp_list">
         <item>Select Location</item>
         <item>Koramangala</item>
@@ -59,10 +78,10 @@
         <item>Bellandur</item>
     </string-array>
     <string-array name="sp_list1">
-        <item>Duration</item>
-        <item>0.5 Hrs</item>
-        <item>1 Hr</item>
-        <item>1.5 Hr</item>
-        <item>2 Hr</item>
+        <item>Duration in Hrs</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
     </string-array>
 </resources>

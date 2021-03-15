@@ -59,6 +59,7 @@ public class Register extends AppCompatActivity implements View.OnClickListener{
         String password_re=pwr.getText().toString().trim();
         final String phone=mob.getText().toString().trim();
         final String location=loc.getSelectedItem().toString().trim();
+        int pos=loc.getSelectedItemPosition();
         if(name.isEmpty()){
             fname.setError("Please Enter Full Name");
             fname.requestFocus();
@@ -106,6 +107,11 @@ public class Register extends AppCompatActivity implements View.OnClickListener{
         }
         if(location.isEmpty()){
             Toast toast = Toast.makeText(this, "Please Select Location", Toast.LENGTH_LONG);
+            toast.show();
+            return;
+        }
+        if(pos==0){
+            Toast toast = Toast.makeText(this, "Please Select Location, not this one", Toast.LENGTH_LONG);
             toast.show();
             return;
         }
